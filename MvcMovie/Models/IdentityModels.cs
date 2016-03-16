@@ -29,5 +29,7 @@ namespace MvcMovie.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<Movie> Movies { get; set; }
     }
 }
